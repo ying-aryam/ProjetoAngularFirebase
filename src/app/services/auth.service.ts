@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { Auth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from '@angular/fire/auth';
 import { Router } from '@angular/router';
 
+
 @Injectable({
     providedIn: 'root',
 })
@@ -15,7 +16,7 @@ export class AuthenticateService {
     constructor( 
         public auth: Auth,
         private _message: MessageService,
-        private _router: Router,
+        private _router: Router
     ) { }
     
     /*
@@ -29,7 +30,7 @@ export class AuthenticateService {
 
         createUserWithEmailAndPassword(this.auth, email, password)
         .then(() => {
-            this._message.show('Conta criada com sucesso! Realize o Login!!!');
+            this._message.show('Conta criada com sucesso! Realize o Login!');
         })
         .catch((_: any) => {
             this.showErro(_, email, password);
@@ -53,10 +54,11 @@ export class AuthenticateService {
         signInWithEmailAndPassword(this.auth, email, password)
         .then((response: any) => {
             console.log(response.user);
+            this._router.navigate(['/home']);
             this._message.show('Login Realizado com Sucesso!');
         })
         .catch((_: any) => {
-            this.showErro(_, email, password);
+            this._message.show('Erro ao realizar login!');
         })
         .finally(() => {
             this.isLoading = false;

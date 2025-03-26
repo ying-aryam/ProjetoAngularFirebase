@@ -23,8 +23,8 @@ export class HomePage {
     biografia:null,
     estatisticas: {
       curtidas: 0,
-      seguindo: 0,
-      amigos: 0,
+      seguindo: 1000,
+      amigos: 1,
     },
     postagens: [
       {
