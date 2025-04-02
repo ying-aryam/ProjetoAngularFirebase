@@ -28,7 +28,4 @@ export class LoginPage implements OnInit {
    acessar(){
     this.authService.login(this.user.email, this.user.password);
    }
-
-  
-
 }

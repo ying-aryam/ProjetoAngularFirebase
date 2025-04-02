@@ -28,23 +28,23 @@ export class HomePage {
     },
     postagens: [
       {
-        foto: 'https://i.pinimg.com/736x/15/4b/28/154b2837a5ee9a2ee369c4085f0294c7.jpg',
-        nome: 'Ana',
-        nome_usuario: '@AnaclaraVich',
+        foto: 'https://i.pinimg.com/474x/86/43/8f/86438fc6addb3a8cb8d2624f62479142.jpg',
+        nome: 'Aila',
+        nome_usuario: '@aila_aryam',
         texto: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, asperiores facilis alias dolores porro optio sit modi distinctio rem saepe consequatur at voluptatibus molestias quasi omnis assumenda cum! Quasi, maiores!',
         data: '12/03/2025 14:00'
       },
       {
-        foto: 'https://i.pinimg.com/736x/b3/fc/ce/b3fccecc20923e597b03c154c9b42d58.jpg',
-        nome: 'Ana',
-        nome_usuario: '@AnaclaraVich',
+        foto: 'https://i.pinimg.com/474x/02/66/a1/0266a10b4de19e2f1146e77fe2ed16ac.jpg',
+        nome: 'Aila',
+        nome_usuario: '@aila_aryam',
         texto: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, asperiores facilis alias dolores porro optio sit modi distinctio rem saepe consequatur at voluptatibus molestias quasi omnis assumenda cum! Quasi, maiores!',
         data: '12/03/2025 14:10'
       },
       {
-        foto: 'https://i.pinimg.com/736x/b0/ee/6f/b0ee6f661250598488a9d4e426acba20.jpg',
-        nome: 'Ana',
-        nome_usuario: '@AnaclaraVich',
+        foto: 'https://i.pinimg.com/474x/f7/7c/96/f77c9678cc2e09e25c0f6c162708f665.jpg',
+        nome: 'Aila',
+        nome_usuario: '@aila_aryam',
         texto: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, asperiores facilis alias dolores porro optio sit modi distinctio rem saepe consequatur at voluptatibus molestias quasi omnis assumenda cum! Quasi, maiores!',
         data: '12/03/2025 14:30'
       }
