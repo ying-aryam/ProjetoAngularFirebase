@@ -12,6 +12,28 @@ import { Router } from '@angular/router';
 })
 export class HomePage {
 
-  constructor( ){ }
+  side_menu: any = [
+    {
+      icon:'home-outline',
+      name: 'Pagina Inicial',
+      selected: true
+    },
+    {
+      icon:'cube-outline',
+      name: 'Produtos',
+      selected: false
+    },
+    {
+      icon:'people-outline',
+      name: 'Clientes',
+      selected: false
+    },
+    {
+      icon:'call-outliner',
+      name: 'Contatos',
+      selected: false
+    },
+  ];
+
 
 }
